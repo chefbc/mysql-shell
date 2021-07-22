@@ -6,7 +6,7 @@ networks:
 services:
   mysqlsh:
     stdin_open: true
-    image: kohls/mysql-shell:latest
+    image: mysql-shell:latest
     environment:
       - SERVICE_IGNORE=true
     tty: true
